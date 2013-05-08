@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<cross-domain-policy>
+	<!-- Place top level domain name -->
+	<allow-access-from domain="*.com" secure="false"/>
+	<allow-access-from domain="*.com" to-ports="80,443"/>
+	<allow-http-request-headers-from domain="*.com" headers="*" />
+	<!-- use if you need access from subdomains.
+	<allow-access-from domain="*.*.com" secure="false" />
+	<allow-access-from domain="*.*.com" to-ports="80,443" />
+	<allow-http-request-headers-from domain="*.*.com" headers="*" />
+	 -->
+</cross-domain-policy>

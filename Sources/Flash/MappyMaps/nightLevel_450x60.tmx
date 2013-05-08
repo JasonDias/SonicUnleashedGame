@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="97" height="60" tilewidth="64" tileheight="32">
+ <tileset name="GroundTiles" firstgid="1" tilewidth="64" tileheight="32">
+  <image source="../../Design/GroundMap.png"/>
+ </tileset>
+ <tileset name="ObjectTiles" firstgid="101" tilewidth="64" tileheight="32">
+  <image source="../../Design/ObjectMapTable.png"/>
+ </tileset>
+ <layer name="ground_layer" width="450" height="60" y="1">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cQQqAMAxFwer9D+0JChKNiWEG3tpuxW/XAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgmjMYAAAAAAAAAAAAALM83Y9226DavwIAAAAAAEAt3+wAAAD6i95L+vW7XrfzAAAAAAAAAAAAAGTL2k123YvudDsPAAAAAAAAAAAAQFTVPjTTG8+yFwUAAAAAAAAAAAD+ato+NOuuUntRAAAAAAAAAAAAoKND5QFQ584/BJrRTvW5JKmyC37h1uvgpQEA
+  </data>
+ </layer>
+ <layer name="object_layer" width="97" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3awQqCUBAF0H62NoFQ/79oFYgRvWomXzPnbAQXMoLPe5W3HMiy7D0AAAAAAAAA8OA0eISqRteAtfAb5zfPA/Cdzjkn61nr+Bzc+9X23vUuutruc7bvuT7f/3TX4V/Yq17zae+REUB1lbKgm6iMyuoH/9Y71vPJf5iLNcmo6Ayjvmo9KGt+AKCeaj0IgOeOAdfIfp/LDWaX/Yx27VAR+5evE8wQ4bL3AKS5AV1oUmDwWgAA
+  </data>
+ </layer>
+</map>

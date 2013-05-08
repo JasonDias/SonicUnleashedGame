@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="327" height="60" tilewidth="64" tileheight="32">
+ <tileset name="GroundTiles" firstgid="1" tilewidth="64" tileheight="32">
+  <image source="../../Design/GroundMap.png"/>
+ </tileset>
+ <tileset name="ObjectTiles" firstgid="101" tilewidth="64" tileheight="32">
+  <image source="../../Design/ObjectMapTable.png"/>
+ </tileset>
+ <layer name="ground_layer" width="450" height="60" y="1">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dyw5AMBAF0PL/H20r1VIqodNzkruQeIVZ1HilBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8A9rFgAAAACA0ZV6nfqfAAAAAAAAAABEsX8f0DuCAADnjJUAAABgHvl9E/0AAIDx1MZypWljPwAAAAAAAAAAovAMDK3UypycdwAAAAAAAABG5Rsx9FI/AAAAEJvrfqLQxwIAmEPpXynGgAAAAADAW/QeAQAAAAAAAAAAAACA0S0iInII86h9qyxPqU5al62t42r9Pdvr2U9xfOVeDaiDeMm1zPf1Pj/NBk7U92LgpQEA
+  </data>
+ </layer>
+ <layer name="object_layer" width="327" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3di0rDMBQA0P2s84FUEf1/FZRKcS6mSZObnAOjsFJ6807T0i4n4NOycz8AAAAAAAAAAAAA1OJZVgAAAAAAAAAAAAAAAACI59w6AIAAnlsHANCYOSPAPufNFmAU+jeAcvSpAACkMncERqIvA7jubrNNYc44N+XOTPR3pFBPmJH6zl+2/aL6wgzUd2A2v/V3qf8BAAAAAACQzv0W/ut8Um/gkuVr+9A0Cmhv2bkfAAAAILLZ19FnTjuwqtEXWltmq8WYY5w7lncsjEvZ7rcda7d5eUTetjjn7EZ730Lk2AGoz7sGIc+1thKxLUWMmTisMQIwo9SxKNqYFS1eAICe5cytrOv3afRyuFTvUrc1YjnS6OX7Tb8Cx9LW+tZT+fQUC/lGL8fS6Rs9v6IZ8RmZ3t0ecI6bzON6uC4kj+tp6Nvo7aV2+kbPP4gm6pxx772QaOmlLyPXtxL3xFk9tg6gol7TlvoNjJfg50z19PF7yzz2vmQgBeV85+S1eBTl/UzXEeuNAKzeAQt+EwSQMgEA
+  </data>
+ </layer>
+</map>
